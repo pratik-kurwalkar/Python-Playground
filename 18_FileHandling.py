@@ -3,7 +3,7 @@
 from pathlib import Path
 
 path1 = Path()  # Denotes current path
-for file in path1.glob('*.py'):
+for file in path1.glob('*.py'): # returns all python files
     print(file)
 
 path2 = Path("testDirectory")
